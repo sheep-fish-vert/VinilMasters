@@ -9,8 +9,17 @@ try{
         });
     }
 
+    function mainSliderLittle(){
+        $('.little-slider-main').slick({
+          dots: false,
+          infinite: true,
+          slidesToShow: 3,
+          slidesToScroll: 3,
+        });
+    }
     $(document).ready(function(){
         mainSliderBig();
+        mainSliderLittle();
     });
 
     $(window).load(function(){

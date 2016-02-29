@@ -31,3 +31,24 @@
     }
 }
 /*/main-big-slider/*/
+
+/*little-slider*/
+.little-slider{
+
+}
+.three-items{
+    .item{width: 300px;height: 300px;overflow: hidden;position: relative;
+        &:hover{
+            .item-text{bottom:0;}
+        }
+    }
+    .item-img img{position: absolute;top: 50%;left: 50%;transform: translate(-50%, -50%);}
+    .item-text{position: absolute;bottom:-100%;min-height: 50%;background-color: rgba(0,0,0, .77);width: 100%;left: 0;display: table;transition:all ease-out .3s;
+        .item-text-wrap{display: table-cell;vertical-align: middle;text-align: center;font-size: 21px;color: white;
+            p{padding-bottom: 4px;}
+            b{font-weight: bold;}
+            img{position: absolute;bottom: 20px;left: 50%;transform: translateX(-50%);}
+        }
+    }
+}
+/*/little-slider*/
