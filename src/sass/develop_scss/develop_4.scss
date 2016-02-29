@@ -1,5 +1,5 @@
 /*main-big-slider/*/
-.main-big-slider{
+.main-big-slider{margin-bottom: 49px;
     .slick-prev, .slick-next{width: 57px;height: 198px;background-color: rgba(0,0,0, .66);z-index: 10;top: 216px;
         &:hover{
             &:after,&:before{border-right: 5px solid #e40023;border-bottom: 5px solid #e40023;}
@@ -33,22 +33,42 @@
 /*/main-big-slider/*/
 
 /*little-slider*/
-.little-slider{
-
-}
-.three-items{
-    .item{width: 300px;height: 300px;overflow: hidden;position: relative;
+.little-slider{position: relative;
+    .slick-prev, .slick-next{top: -25px;right: 0;z-index: 15;
         &:hover{
-            .item-text{bottom:0;}
+            &:after,&:before{border-right: 3px solid #e40023;border-bottom: 3px solid #e40023;}
         }
     }
+    .slick-prev:before, .slick-next:before{display: none;}
+    .slick-prev:after, .slick-next:after{height: 11px;width: 11px;content: '';position: absolute;top: 50%;left: 50%;transform: translate(-50%,-50%) rotate(-45deg);border-right: 3px solid #1a113a;border-bottom: 3px solid #1a113a;transition:all ease .2s;}
+    .slick-prev:after{transform: translate(-50%,-50%) rotate(135deg);}
+    .slick-prev{left: auto;right: 15px;}
+
+    .title{font-weight: 900;color: #1a123a;font-size: 20px;margin-bottom: 7px;}
+}
+.three-items{
+    .item-wrap{width: 300px;height: 300px;overflow: hidden;position: relative;margin:0 auto;
+        &:hover{
+            .item-text{bottom:0;
+                img{animation-name: oko-dragging;animation-duration: 1s;animation-iteration-count: infinite;animation-timing-function:linear;}
+            }
+        }
+    }
+    a{display: block;}
     .item-img img{position: absolute;top: 50%;left: 50%;transform: translate(-50%, -50%);}
     .item-text{position: absolute;bottom:-100%;min-height: 50%;background-color: rgba(0,0,0, .77);width: 100%;left: 0;display: table;transition:all ease-out .3s;
         .item-text-wrap{display: table-cell;vertical-align: middle;text-align: center;font-size: 21px;color: white;
             p{padding-bottom: 4px;}
             b{font-weight: bold;}
-            img{position: absolute;bottom: 20px;left: 50%;transform: translateX(-50%);}
+            img{position: absolute;bottom: 20px;left: calc(50% - 15px);}
         }
     }
+}
+@keyframes oko-dragging {
+    0% {transform: rotate(0);}
+    25% {transform: rotate(-10deg);}
+    50% {transform: rotate(0);}
+    75% {transform: rotate(10deg);}
+    100% {transform: rotate(0);}
 }
 /*/little-slider*/
