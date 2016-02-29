@@ -1,3 +1,10 @@
+/*title-text*/
+.title-text{position: relative;font-weight: 900;font-size: 20px;color: #1c143c;padding-left: 18px;
+    &:after{content: "";height: 100%;width: 9px;position: absolute;left: 0;top: 0;background-color: #e40023;}
+}
+
+/*/title-text*/
+
 /*main-big-slider/*/
 .main-big-slider{margin-bottom: 49px;
     .slick-prev, .slick-next{width: 57px;height: 198px;background-color: rgba(0,0,0, .66);z-index: 10;top: 216px;
@@ -72,3 +79,4 @@
     100% {transform: rotate(0);}
 }
 /*/little-slider*/
+
