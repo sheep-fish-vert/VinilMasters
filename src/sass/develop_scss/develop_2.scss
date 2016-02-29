@@ -1,0 +1,24 @@
+.wrap-partner{ padding-top: 10px; padding-bottom: 20px;
+    .title-text{font-size: 20px;font-weight: 900; font-family: "Raleway",sans-serif; color: rgb(28, 20, 60);line-height: 1.2;text-align: left; padding-bottom: 6px;}
+    .conteiner{background-color: white; padding: 35px 0;
+        .item{display: block; float: left; width: 25%; text-decoration: none;text-align: center; cursor: pointer;
+            .con{display: table; min-height:56px; width: 100%;
+                .becon{display: table-cell; vertical-align: middle;}
+            }
+            .after-text{font-size: 14px;font-weight: 700; font-family: "Raleway",sans-serif;line-height: 1.2;color: rgb(30, 22, 62);
+                span{ border-bottom: 1px dashed black; display: inline-block; transition: all 0.5s;}
+            }
+            &:hover{
+                .after-text{color: red;
+                    span{border-bottom: 1px dashed red;}
+                }
+            }
+        }
+    }
+}
+
+.fish-text{ width: 100%; padding-top: 20px; padding-bottom: 47px;
+    .texter{ font-size: 12px;font-family: "Raleway", sans-serif; color: rgb(61, 116, 147); line-height: 1.5;  text-align: left;}
+}
+
+
