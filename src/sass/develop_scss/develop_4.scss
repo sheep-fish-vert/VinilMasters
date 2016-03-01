@@ -108,6 +108,12 @@
     /*big*/
     &.big{
         .flex-item{width: 296px;height: 264px;margin-bottom: 0;
+            .item-wrap>a+a{position: absolute;left: 50%;transform: translateX(-50%);bottom: 8px;color: #359ce6;z-index: 15;font-size: 14px;font-weight: bold;white-space: nowrap;text-decoration: none;padding: 2px 5px;
+                span{border-bottom: 1px dashed #359ce6;}
+                &:hover{
+                    span{border-bottom: none;}
+                }
+            }
             .item-text{min-height: 70px;
                 .item-text-wrap{font-size: 14px;line-height: 18px;}
             }
@@ -163,3 +169,9 @@
 
 }
 /*/popular-tovar*/
+
+/*pod-category-tovar*/
+.pod-category-tovar{background-color: #fff;padding: 10px 15px 20px;
+
+}
+/*/pod-category-tovar*/
