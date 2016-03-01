@@ -36,6 +36,12 @@ function oneHeightItems(){
     }
 
     oneHeight($('.oneHeight'));
+    oneHeight($('.uslugi-ver2 .usluga-item-list'));
+
+    $(window).load(function() {
+        oneHeight($('.uslugi-ver2 .usluga-item-list'));
+    });
+
 }
 
 /*scroll animation*/
@@ -120,12 +126,13 @@ function headeButer(menuMobile,toggleMenu){
 
 /* DOCUMENT READY  */
 $(document).ready(function() {
-    //oneHeightItems();
+    oneHeightItems();
     cutText();
     $('.footer_placeholder').height($('.footer').outerHeight());
 
     //goTo();
     //animationBlock($('.setion-animate'));
+    //oneHeight($('.uslugi-ver2 .usluga-item-wrap'));
 });
 
 $(window).resize(function() {

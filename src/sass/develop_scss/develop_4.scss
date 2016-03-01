@@ -190,3 +190,40 @@
     }
 }
 /*/new-promo*/
+
+
+/*uslugi-catalog*/
+.uslugi-catalog{padding: 10px 15px 5px;background-color: #fff;
+    .uslugi-catalog-top{display: flex;flex-flow: row wrap;justify-content: space-between;padding-bottom: 20px;border-bottom: 1px solid #eee;margin-bottom: 15px;}
+    .usluga-item{width: 225px;
+        .usluga-item-wrap{border: 1px solid #eee;padding: 12px;}
+        .item-img{width: 199px;height: 184px;position: relative;overflow: hidden;
+            img{position: absolute;top: 50%;left: 50%;transform: translate(-50%, -50%);}
+        }
+        .item-text{position: absolute;bottom: 0;left: 0;width: 100%;background-color: rgba(0,0,0, .77);display: table;min-height: 45px;z-index: 10;
+            .item-text-wrap{display: table-cell;vertical-align: middle;text-align: center;font-weight: bold;color: white;font-size: 12px;}
+        }
+        .usluga-item-list{padding-top: 9px;
+            li{line-height: 18px;}
+            a{font-size: 12px;color: #1b143c;padding-left: 10px;position: relative;text-decoration: none;font-weight: bold;
+                &:after{position: absolute;top: -3px;left: 0;color: #1b143c;content: '-';font-weight: bold;}
+                &:hover{color: #e40023;
+                    &:after{color: #e40023;}
+                }
+            }
+        }
+    }
+    .uslugi-catalog-bottom{display: flex;flex-flow: row wrap;justify-content: space-between;padding-bottom: 25px;}
+    .usluga-item.blue-item{width: 296px;height: 366px;background-color: #e1f5fe;position: relative;
+        .item-img{text-align: center;width: 100%;
+            img{display: inline-block;top: 63%;}
+        }
+        .text{text-align: center;color: #1b143c;font-size: 14px;
+            b{font-weight: 900;color: #4595b9;font-size: 23.35px;display: inline-block;padding-bottom: 7px;}
+        }
+        a{position: absolute;left: 50%;transform: translateX(-50%);bottom:49px;width: 198px;height: 40px;background-color: #4595b9;color: white;text-align: center;text-decoration: none;border-radius: 4px;font-size: 14px;font-weight: bold;line-height: 40px;transition:all ease .2s;
+            &:hover{background-color: #e40023;}
+        }
+    }
+}
+/*/uslugi-catalog*/
