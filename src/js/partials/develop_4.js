@@ -22,6 +22,7 @@ try{
       $('.form-filter select').styler();
     }
 
+
     $(document).ready(function(){
         mainSliderBig();
         mainSliderLittle();
