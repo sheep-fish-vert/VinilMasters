@@ -69,13 +69,27 @@
     }
 }
 
-.hidden-block {position: static;}
-
-#call_success{ border-radius: 20px; background-color: white; text-align: center; width: 407px; padding: 45px;
+#call_error, #call_success{ border-radius: 20px; background-color: white; text-align: center; width: 407px; padding: 45px;
     .call-img{padding-bottom: 10px;}
     .call-title{font-size: 26px; font-family: "Raleway", sans-serif;color: rgb(28, 20, 60); font-weight: 900;padding-bottom: 10px;}
+    .call-error-title{color: rgb(229, 57, 53);}
     .call-subtitle{font-size: 20px; font-family: "Raleway", sans-serif;color: rgb(28, 20, 60);font-weight: 400; line-height: 1.2;}
 }
+
+.fancybox-overlay{background: none; background-color: rgba(31, 27, 54,0.95); }
+
+.fancybox-opened {border-radius: 20px; overflow: hidden;
+    .fancybox-skin{ box-shadow: none; background: transparent;}
+    .fancybox-close{ top: 10px; right: 3px; background: none; background-color: transparent; width: 24px; height: 24px; border: 2px solid #a8a5be; border-radius: 50%;
+        &:before{content: ''; position: absolute; top: 9px; right: 4px; height: 2px; width: 12px; transform: rotate(45deg); background-color: #a8a5be;}
+        &:after{content: ''; position: absolute; top: 9px; right: 4px; height: 2px; width: 12px; transform: rotate(135deg); background-color: #a8a5be;}
+    }
+}
+
+.fishtext{ padding: 15px 0px 0px; border-top: 1px solid #eeeeee; width: 928px; margin: 0 auto;
+    p{font-size: 12px;font-family: "Raleway", sans-serif;color: rgb(61, 116, 147);line-height: 1.5; padding-bottom: 18px;}
+}
+
 
 
 
