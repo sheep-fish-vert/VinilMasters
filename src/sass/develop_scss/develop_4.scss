@@ -132,3 +132,18 @@
     .title-word{margin-bottom: 15px;}
 }
 /*/old-promo*/
+
+/*done-works*/
+.done-works{margin-bottom: 30px;padding-top: 20px;
+    .three-items{display: flex;flex-flow: row wrap;justify-content: space-between;}
+    .title-word{margin-bottom: 20px;float: left;}
+    .done-works-more{float: right;
+        a{color: #1a123a;font: 16px/24px 'Raleway';text-decoration: none;border-bottom: 1px dashed #1a123a;font-weight: bold;padding-right: 15px;position: relative;
+            &:after{height: 10px;width: 10px;content: '';position: absolute;top: 50%;right: 0;transform: translateY(-50%) rotate(-45deg);border-right: 3px solid #1a113a;border-bottom: 3px solid #1a113a;transition:all ease .2s;}
+            &:hover{border-bottom: none;
+                &:after{border-right: 3px solid #e40023;border-bottom: 3px solid #e40023;}
+            }
+        }
+    }
+}
+/*/done-works*/
