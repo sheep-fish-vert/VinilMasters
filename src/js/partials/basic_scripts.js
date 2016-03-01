@@ -121,6 +121,7 @@ function headeButer(menuMobile,toggleMenu){
 /* DOCUMENT READY  */
 $(document).ready(function() {
     //oneHeightItems();
+    cutText();
     $('.footer_placeholder').height($('.footer').outerHeight());
 
     //goTo();

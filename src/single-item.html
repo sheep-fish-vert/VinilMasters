@@ -6,18 +6,57 @@
     <!-- MAIN -->
     <div class="main">
         <!-- add partials here -->
-        //= partials/breadcrums.html
         <div class="mbox">
-
-
-            //= partials/plenka.html
-
+            //= partials/breadcrums.html
         </div>
-
-    </div>
-
-    //= partials/superform.html
-
+        <form action="ajax.php" name="form-in-page" >
+            <div class="mbox">
+                //= partials/plenka.html
+            </div>
+            <div class="superform-conteiner">
+                <div class="mbox">
+                    <div class="form-in-page">
+                        <div class="contact-form-title">
+                            <h3>Остались вопросы? Задайте их нашему менеджеру.</h3>
+                        </div>
+                        <div class="input-conteiner cfix">
+                            <div class="contact-form-row cfix">
+                                <div class="contact-form-item">
+                                    <div class="contact-form-item-input form_row">
+                                        <div class="form_input">
+                                            <input type="text" name="contact_name" required="required" value="" placeholder="Ваше Имя">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="contact-form-item">
+                                    <div class="contact-form-item-input form_row">
+                                        <div class="form_input">
+                                            <input type="text" name="contact_tel" value="" required="required" placeholder="Телефон" class="tel-mask">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="contact-form-row cfix">
+                                <div class="contact-form-item">
+                                    <div class="contact-form-item-input form_row">
+                                        <div class="form_input textarea-block">
+                                        <textarea name="" placeholder="Сообщение" required="required"></textarea>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="contact-form-row-sub cfix">
+                            <div class="contact-form-item">
+                                <button type="submit" class="contact-submit">
+                                    <span>Отправить заявку</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+         </form>
     <!-- /MAIN -->
 
     //= partials/hidden-block.html
