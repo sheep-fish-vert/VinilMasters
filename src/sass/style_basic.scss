@@ -22,7 +22,7 @@ img{vertical-align:bottom;border:0;max-width:100%;}
 /* wraps styling*/
 
 .mbox{max-width:1000px;width:100%;padding:0 20px;margin:0 auto;position:relative;z-index:1;}
-.global-wrapper{background-image: url(../images/all-bg.jpg); background-repeat: repeat-y; background-position: top center; background-attachment: fixed;}
+.global-wrapper{background-image: url(../images/all-bg.jpg);background-repeat: repeat-y;background-position: top center;background-attachment: fixed;}
 .mbox:after{content:"";clear:both;font-size:1px;line-height:1px;height:0;overflow:hidden;display:block;}
 
 /* /wraps styling*/
