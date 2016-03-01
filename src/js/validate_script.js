@@ -214,8 +214,10 @@ function fancyboxForm(){
 }
 
 $(document).ready(function(){
+    validate('#single-item-form', {submitFunction:validationCall});
    validate('#call-popup .contact-form', {submitFunction:validationCall});
    validate('.form-in-page ', {submitFunction:validationCall});
+
    Maskedinput();
    fancyboxForm();
 });
