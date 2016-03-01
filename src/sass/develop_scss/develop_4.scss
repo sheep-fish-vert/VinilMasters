@@ -108,6 +108,12 @@
     /*big*/
     &.big{
         .flex-item{width: 296px;height: 264px;margin-bottom: 0;
+            .item-wrap>a+a{position: absolute;left: 50%;transform: translateX(-50%);bottom: 8px;color: #359ce6;z-index: 15;font-size: 14px;font-weight: bold;white-space: nowrap;text-decoration: none;padding: 2px 5px;
+                span{border-bottom: 1px dashed #359ce6;}
+                &:hover{
+                    span{border-bottom: none;}
+                }
+            }
             .item-text{min-height: 70px;
                 .item-text-wrap{font-size: 14px;line-height: 18px;}
             }
@@ -163,3 +169,24 @@
 
 }
 /*/popular-tovar*/
+
+/*pod-category-tovar*/
+.pod-category-tovar{background-color: #fff;padding: 10px 15px 20px;
+
+}
+/*/pod-category-tovar*/
+
+/*new-promo*/
+.new-promo{padding: 10px 15px 5px;background-color: #fff;
+    .new-promo-row{border: 1px solid #f1f1f1;margin-bottom: 13px;position: relative;
+        &:last-child{margin-bottom: 0;}
+        &:after{content: '';display: block;clear: both;}
+        .flex-item{margin-bottom: 0;border:none;float: left;}
+        .title{text-transform: uppercase;color: #1c143c;font-size: 16px;margin-bottom: 23px;font-weight: bold;}
+        .text{color: #1c143c;font-size: 14px;line-height: 18px;}
+        .text + a{color: #4595b9;text-decoration: none;font-size: 16px;font-weight: bold;border-bottom: 1px dashed #4595b9;position: absolute;left: 225px;bottom: 18px;
+            &:hover{border-bottom: none;}
+        }
+    }
+}
+/*/new-promo*/
