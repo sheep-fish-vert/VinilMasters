@@ -1,0 +1,56 @@
+/*single-work*/
+    .single-work-wrap{background-color: #fff; padding:10px 20px;
+        .title{position: relative; border-top:1px solid #eee;     padding-top: 18px;     padding-bottom: 17px;
+            h3{font:900 20px/24px 'Raleway'; color:#1c143c; position: relative; padding-left: 13px;     width: calc(100% - 180px);
+                &:before{content: ''; display: block;  width: 8px; height: 17px; background-color: #e40023;  position: absolute; left:-2px; top:4px; }
+            }
+            .socials{ position: absolute; right:-5px; top:20px;
+                a{height: 18px; display: inline-block; vertical-align: top; text-decoration: none; color: #fff;  border-radius: 1px; overflow: hidden;
+                    i{background-repeat: no-repeat; background-position: left top; width:18px; height: 18px; display: inline-block; vertical-align: top;}
+                    span{padding-right: 8px; font-size: 12px; padding-top: 2px; display: inline-block; vertical-align: top;}
+                    &.vk{background-color: #2672A0;
+                        i{background-image: url(../images/vk.png);}
+                    }
+                    &.fb{background-color: #3c5995;
+                        i{background-image: url(../images/fb.png);}
+                    }
+                    &.tw{background-color: #0eaceb;
+                        i{background-image: url(../images/tw.png);}
+                    }
+                    &.gp{background-color: #E05031;
+                        i{background-image: url(../images/gp.png);}
+                    }
+                    &.hz{background-color: #EE0F22;
+                        i{background-image: url(../images/hz.png);}
+                    }
+                }
+            }
+        }
+        .txt{font:400 14px/20px 'Raleway'; color:#1c143c; padding: 12px;  position: relative; border:1px solid #eee;     margin-bottom: 12px;
+        }
+        .img{ padding: 32px 40px 25px;  position: relative; border:1px solid #eee; margin-bottom: 12px;
+            img{margin-bottom: 15px;}
+        }
+        .buttons-row{    padding-top: 8px;     padding-bottom: 17px;
+            a{font:700 12px/12px 'Raleway'; color:#fff; width: 176px; height: 40px; background-color: #949fb1; position: relative; border-radius: 5px; overflow: hidden; display: block; text-align: center; text-decoration: none; padding-top: 16px;
+                i{background-repeat: no-repeat; background-position: left top; width:17px; height: 12px; display: inline-block; vertical-align: top; background-image: url(../images/arrgr.png);}
+                &:before{width: 100%; height: 100%; background-color: #4595b9; content: ''; display: block; position: absolute; top:calc(50% - 20px); left: calc(50% - 88px);transform: scale(0,0);}
+                &:hover{&:before{animation: naruto 500ms ease-out; transform: scale(1,1);}}
+                i{position: relative; z-index: 10;}
+                span{position: relative; z-index: 10;}
+            }
+            .prev{float: left;
+                i{transform:rotate(180deg); margin-right: 7px;}
+            }
+            .next{float:right;
+                i{ margin-left: 7px;}
+            }
+        }
+    }
+    @keyframes naruto{
+        0%{transform: scale(0,0);}
+        10%{transform: scale(0,0.3);}
+        70%{transform: scale(1,0);}
+        100%{transform: scale(1,1);}
+    }
+/*END single-work*/
