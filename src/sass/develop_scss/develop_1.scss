@@ -119,3 +119,16 @@
     }
 
 /* /breadcrumbs */
+
+/* contact-us */
+
+    .contact-us{padding:20px 0 0 0;
+        .contact-top{display: flex;justify-content:space-between;flex-wrap:wrap;
+            .contact-col{width: calc(50% - 12px);border:1px solid #eeeeee;
+                .contact-img{width: 105px;padding:0 5px;}
+                .contact-text{width: calc(100% - 105px);padding: 0 15px 0 0;font-family: 'ProximaNova', sans-serif;color:#1a133b;font-size: 18px;}
+            }
+        }
+    }
+
+/* /contact-us */
