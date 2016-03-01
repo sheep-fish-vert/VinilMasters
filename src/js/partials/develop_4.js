@@ -17,9 +17,15 @@ try{
           slidesToScroll: 3,
         });
     }
+
+    function filterSelect(){
+      $('.form-filter select').styler();
+    }
+
     $(document).ready(function(){
         mainSliderBig();
         mainSliderLittle();
+        filterSelect();
     });
 
     $(window).load(function(){

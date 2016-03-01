@@ -18,7 +18,7 @@
 //  example -> @include font-face('PFDinTextPro', 'PFDinTextPro-Bold', 700, italic);
 
 
-@include font-face('ProximaNova','ProximaNova-Regular', 400);
+@include font-face('ProximaNova','ProximaNova-Regular');
 @include font-face('Raleway','Raleway-Black', 900);
 @include font-face('Raleway','Raleway-ExtraBold', 800);
 @include font-face('Raleway','Raleway-Bold', 700);
