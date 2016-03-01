@@ -1,5 +1,5 @@
 /*title-text*/
-.title-word{position: relative;font-weight: 900;font-size: 20px;color: #1c143c;padding-left: 18px;
+.title-word{position: relative;font-weight: 900;font-size: 20px;color: #1c143c;padding-left: 18px;margin-bottom: 15px;
     &:after{content: "";height: 100%;width: 9px;position: absolute;left: 0;top: 0;background-color: #e40023;}
 }
 
@@ -83,7 +83,7 @@
 
 
 /*new-promo*/
-.catalog-work{padding-bottom: 200px;background-color: #fff;padding: 0 15px 20px;
+.catalog-work{padding-bottom: 200px;background-color: #fff;padding: 10px 15px 20px;
     .title-word{float: left;}
     .catalog-work-top{margin-bottom: 14px;}
     .form-filter{float: right;
@@ -104,7 +104,17 @@
 /*/new-promo*/
 
 /*flex-item*/
-.flex-items{display: flex;flex-flow: row wrap;justify-content: space-between;}
+.flex-items{display: flex;flex-flow: row wrap;justify-content: space-between;
+    /*big*/
+    &.big{
+        .flex-item{width: 296px;height: 264px;margin-bottom: 0;
+            .item-text{min-height: 70px;
+                .item-text-wrap{font-size: 14px;line-height: 18px;}
+            }
+        }
+    }
+    /*/big*/
+}
 .flex-item{width: 225px;height: 210px;display: inline-block;padding: 12px;background-color: #fff;border:1px solid #f1f1f1;margin-bottom: 10px;
     &:hover{
         .item-text .item-text-oko{height: 30px;
@@ -117,7 +127,7 @@
     }
     a{display: block;}
     .item-text{position: absolute;bottom:0%;min-height: 45px;background-color: rgba(0,0,0, .77);width: 100%;left: 0;display: table;transition:all ease-out .3s;
-        .item-text-wrap{display: table-cell;vertical-align: middle;text-align: center;font-size: 12px;color: white;font-weight: bold;line-height: 14px;line-height: 16px;padding: 2px 0px;
+        .item-text-wrap{display: table-cell;vertical-align: middle;text-align: center;font-size: 12px;color: white;font-weight: bold;line-height: 16px;padding: 2px 0px;
             p{}
         }
         .item-text-oko{position: absolute;width: 100%;bottom:100%;background-color: rgba(0,0,0, .77);text-align: center;height: 0%;transition:height ease .2s;
@@ -128,7 +138,7 @@
 /*/flex-item*/
 
 /*old-promo*/
-.old-promo{padding: 0 15px 20px;background-color: #fff;
+.old-promo{padding: 10px 15px 20px;background-color: #fff;
     .title-word{margin-bottom: 15px;}
 }
 /*/old-promo*/
@@ -147,3 +157,9 @@
     }
 }
 /*/done-works*/
+
+/*popular-tovar*/
+.popular-tovar{background-color: #fff;padding: 10px 15px 20px;
+
+}
+/*/popular-tovar*/

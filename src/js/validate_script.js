@@ -104,6 +104,9 @@ function validationCall(form){
         url : thisForm.attr('action'),
         data: formSur,
         method:'POST',
+        error :function() {
+            popNext("#call_error", "call-popup");
+        },
         success : function(data){
             if ( data.trim() == 'true') {
                 thisForm.trigger("reset");
