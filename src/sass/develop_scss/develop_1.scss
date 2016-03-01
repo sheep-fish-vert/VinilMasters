@@ -51,7 +51,7 @@
                     p{margin-bottom: 2px;}
                 }
                 .header-contacts-bottom{font-size: 28px;color:#1b133b;
-                    p{margin-bottom: 3px;
+                    a{margin-bottom: 3px; display: block; text-decoration: none; color:#1b133b;
                         &:last-child{margin-bottom: 0;}
                     }
                     span{color:#e40023;font-weight: 700;}
