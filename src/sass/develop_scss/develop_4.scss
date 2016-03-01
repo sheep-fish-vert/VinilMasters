@@ -1,5 +1,5 @@
 /*title-text*/
-.title-word{position: relative;font-weight: 900;font-size: 20px;color: #1c143c;padding-left: 18px;
+.title-word{position: relative;font-weight: 900;font-size: 20px;color: #1c143c;padding-left: 18px;margin-bottom: 15px;
     &:after{content: "";height: 100%;width: 9px;position: absolute;left: 0;top: 0;background-color: #e40023;}
 }
 
@@ -83,7 +83,7 @@
 
 
 /*new-promo*/
-.catalog-work{padding-bottom: 200px;background-color: #fff;padding: 0 15px 20px;
+.catalog-work{padding-bottom: 200px;background-color: #fff;padding: 10px 15px 20px;
     .title-word{float: left;}
     .catalog-work-top{margin-bottom: 14px;}
     .form-filter{float: right;
@@ -128,7 +128,7 @@
 /*/flex-item*/
 
 /*old-promo*/
-.old-promo{padding: 0 15px 20px;background-color: #fff;
+.old-promo{padding: 10px 15px 20px;background-color: #fff;
     .title-word{margin-bottom: 15px;}
 }
 /*/old-promo*/
@@ -147,3 +147,9 @@
     }
 }
 /*/done-works*/
+
+/*popular-tovar*/
+.popular-tovar{background-color: #fff;padding: 10px 15px 20px;
+
+}
+/*/popular-tovar*/
