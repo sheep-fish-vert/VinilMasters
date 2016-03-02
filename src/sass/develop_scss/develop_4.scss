@@ -144,7 +144,7 @@
 /*/flex-item*/
 
 /*old-promo*/
-.old-promo{padding: 10px 15px 20px;background-color: #fff;
+.old-promo{padding: 10px 15px 10px;background-color: #fff;
     .title-word{margin-bottom: 15px;}
 }
 /*/old-promo*/
@@ -230,9 +230,23 @@
 
 /*uslugi-catalog  ver1*/
 .uslugi-catalog.uslugi-ver1{
-    .uslugi-catalog-top{align-items:flex-start;}
+    .uslugi-catalog-top{display: block;border-bottom: none;padding-bottom: 5px;margin-bottom: 0;}
+    .item-column{float: left;margin-right: 20px;
+        &:last-child{margin-right: 0;}
+        &.item-2{
+            .usluga-item.blue-item{height: 360px;}
+        }
+        &.item-3{
+            .usluga-item.blue-item{height: 396px;}
+        }
+    }
     .usluga-item{width: 296px;margin-bottom: 12px;
         .item-img{width: 100%;height: 248px;}
+
+        &.blue-item{
+            &:first-child{height: 350px}
+            .item-img{height: 200px;}
+        }
     }
 }
 /*/uslugi-catalog  ver1*/
