@@ -91,7 +91,8 @@
         .jq-selectbox__trigger{border-left: none;}
         .jq-selectbox__trigger-arrow{border-top: 5px solid #1a113a;top: 17px;}
         .jq-selectbox__select-text{padding-top: 11px;}
-        button[type=submit]{height: 40px;border-radius: 4px;color: white;background-color: #4595b9;border:none;min-width: 117px;cursor: pointer;
+        button[type=submit]{height: 40px;border-radius: 4px;color: white;background-color: #94A0B0;border:none;min-width: 117px;cursor: pointer;transition:all ease .2s;
+            &:hover{background-color: #4595b9;}
             &:active{
                 span{position: relative;top: 2px;}
             }
