@@ -173,22 +173,15 @@ function popNext(popupId, popupWrap){
 
     $.fancybox.open(popupId,{
         padding:0,
+        openEffect  : 'fade',
+        closeEffect : 'fade',
         fitToView:false,
         wrapCSS:popupWrap,
         autoSize:true,
         afterClose: function(){
             $('form').trigger("reset");
-            clearTimeout(timer);
         }
     });
-
-    var timer = null;
-
-    timer = setTimeout(function(){
-        $('form').trigger("reset");
-        $.fancybox.close(popupId);
-    },2000);
-
 }
 
 
