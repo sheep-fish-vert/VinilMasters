@@ -8,9 +8,9 @@
                 &:last-child{margin-bottom: 0;}
             }
             a{text-decoration: none;text-transform: uppercase;font-size: 14px;color:#736998;position: relative;
-                &:before{content:attr(data-hover);position: absolute;left:0;top:1px;bottom:0;display:block;width: 0;color:#e40023;overflow:hidden;transition:width 300ms ease;}
+                span{position: absolute;left:0;top:1px;bottom:0;display:block;width: 0;color:#e40023;overflow:hidden;transition:width 300ms ease;}
                 &:hover{
-                    &:before{width: 100%;}
+                    span{width: 100%;}
                 }
             }
             &.second-list{margin-right: 0px;padding-top: 3px;
@@ -125,9 +125,9 @@
     .contact-us{padding:20px 0 0 0;
 
         .contact-top{display: flex;justify-content:space-between;flex-wrap:wrap;margin-bottom:  20px;padding-top: 4px;
-            .contact-col{width: calc(50% - 12px);border:1px solid #eeeeee;display: flex;align-items:center;min-height: 118px;
-                .contact-img{width: 105px;padding:0 5px;text-align: center;}
-                .contact-text{width: calc(100% - 105px);padding: 0 15px 0 0;font-family: 'ProximaNova', sans-serif;color:#1a133b;font-size: 18px;
+            .contact-col{width: calc(50% - 12px);border:1px solid #eeeeee;display: flex;align-items:center;justify-content:center;min-height: 118px;
+                .contact-img{padding-right:25px;text-align: center;}
+                .contact-text{padding: 0 15px 0 0;font-family: 'ProximaNova', sans-serif;color:#1a133b;font-size: 18px;
                     p{margin-bottom: 3px;
                         &:last-child{margin-bottom:0;}
                     }
