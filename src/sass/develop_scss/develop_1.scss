@@ -125,9 +125,9 @@
     .contact-us{padding:20px 0 0 0;
 
         .contact-top{display: flex;justify-content:space-between;flex-wrap:wrap;margin-bottom:  20px;padding-top: 4px;
-            .contact-col{width: calc(50% - 12px);border:1px solid #eeeeee;display: flex;align-items:center;min-height: 118px;
-                .contact-img{width: 105px;padding:0 5px;text-align: center;}
-                .contact-text{width: calc(100% - 105px);padding: 0 15px 0 0;font-family: 'ProximaNova', sans-serif;color:#1a133b;font-size: 18px;
+            .contact-col{width: calc(50% - 12px);border:1px solid #eeeeee;display: flex;align-items:center;justify-content:center;min-height: 118px;
+                .contact-img{padding-right:25px;text-align: center;}
+                .contact-text{padding: 0 15px 0 0;font-family: 'ProximaNova', sans-serif;color:#1a133b;font-size: 18px;
                     p{margin-bottom: 3px;
                         &:last-child{margin-bottom:0;}
                     }
