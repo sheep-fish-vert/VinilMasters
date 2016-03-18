@@ -251,3 +251,25 @@
     }
 }
 /*/uslugi-catalog  ver1*/
+
+
+/*search*/
+.search{
+    .search-top{
+        .title-word{margin-left: 15px;margin-bottom: 13px;}
+        .search-top-wrap{background-color: #3f3867;padding:18px 15px;}
+        .search-form-wrap{display: flex;justify-content: space-between;}
+        .search-form-input{width: 87%;
+            input{width: 100%;height: 47px;line-height: 47px;padding: 0 14px;border:1px solid #756f96;
+                ::-webkit-input-placeholder {color:#8880b6;}
+                :-moz-placeholder {color:#8880b6;}
+                ::-moz-placeholder {color:#8880b6;}
+                :-ms-input-placeholder {color:#8880b6;}
+            }
+        }
+        .search-form-button{width: 12%;
+            button{width: 100%;height: 47px;}
+        }
+    }
+}
+/*/search*/
