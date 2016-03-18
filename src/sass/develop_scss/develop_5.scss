@@ -26,7 +26,20 @@
                 }
             }
         }
-        .txt{font:400 14px/20px 'Raleway'; color:#1c143c; padding: 12px;  position: relative; border:1px solid #eee;     margin-bottom: 12px;
+        .txt{font:400 14px/20px 'Raleway'; color:#1c143c; padding: 12px;  position: relative; border:1px solid #eee;margin-bottom: 12px;
+
+            p{display: block;margin-before: 1em;margin-after: 1em;margin-start: 0px;margin-end: 0px;    -webkit-margin-before: 1em;-webkit-margin-after: 1em;-webkit-margin-start: 0px;-webkit-margin-end: 0px;}
+            strong, b {font-weight: bold;}
+            i, cite, em, var, address, dfn {font-style: italic;}
+            li {display: list-item;text-align:match-parent;text-align: -webkit-match-parent;}
+            ul, menu, dir {display: block;list-style-type: disc;margin-before: 1em;margin-after: 1em;margin-start: 0px;margin-end: 0px;padding-start: 40px;-webkit-margin-before: 1em;-webkit-margin-after: 1em;-webkit-margin-start: 0px;-webkit-margin-end: 0px;-webkit-padding-start: 40px;}
+            ol {display: block;list-style-type: decimal;margin-before: 1em;margin-after: 1em;margin-start: 0px;margin-end: 0px;padding-start: 40px;-webkit-margin-before: 1em;-webkit-margin-after: 1em;-webkit-margin-start: 0px;-webkit-margin-end: 0px;-webkit-padding-start: 40px;}
+            table {display: table;border-collapse: separate;border-spacing: 2px;border-color: grey;}
+            tbody {display: table-row-group;vertical-align: middle;border-color: inherit;}
+            tr {display: table-row;vertical-align: inherit;border-color: inherit;}
+            td, th {display: table-cell;vertical-align: inherit;}
+            blockquote {display: block;-webkit-margin-before: 1em;-webkit-margin-after: 1em;-webkit-margin-start: 40px;-webkit-margin-end: 40px;margin-before: 1em;margin-after: 1em;margin-start: 40px;margin-end: 40px;}
+            blockquote, q {quotes: inherit;}
         }
         .img{ padding: 32px 40px 25px;  position: relative; border:1px solid #eee; margin-bottom: 12px;
             img{margin-bottom: 15px;}
@@ -61,7 +74,20 @@
                 &:before{content: ''; display: block;  width: 8px; height: 100%; background-color: #e40023;  position: absolute; left:0px; top:1px; }
             }
         }
-        .txt{font:400 14px/20px 'Raleway'; color:#1c143c; padding: 12px 14px 13px;  position: relative; border:1px solid #eee;     margin-bottom: 21px;}
+        .txt{font:400 14px/20px 'Raleway'; color:#1c143c; padding: 12px 14px 13px;  position: relative; border:1px solid #eee;margin-bottom: 21px;
+            p{display: block;margin-before: 1em;margin-after: 1em;margin-start: 0px;margin-end: 0px;    -webkit-margin-before: 1em;-webkit-margin-after: 1em;-webkit-margin-start: 0px;-webkit-margin-end: 0px;}
+            strong, b {font-weight: bold;}
+            i, cite, em, var, address, dfn {font-style: italic;}
+            li {display: list-item;text-align:match-parent;text-align: -webkit-match-parent;}
+            ul, menu, dir {display: block;list-style-type: disc;margin-before: 1em;margin-after: 1em;margin-start: 0px;margin-end: 0px;padding-start: 40px;-webkit-margin-before: 1em;-webkit-margin-after: 1em;-webkit-margin-start: 0px;-webkit-margin-end: 0px;-webkit-padding-start: 40px;}
+            ol {display: block;list-style-type: decimal;margin-before: 1em;margin-after: 1em;margin-start: 0px;margin-end: 0px;padding-start: 40px;-webkit-margin-before: 1em;-webkit-margin-after: 1em;-webkit-margin-start: 0px;-webkit-margin-end: 0px;-webkit-padding-start: 40px;}
+            table {display: table;border-collapse: separate;border-spacing: 2px;border-color: grey;}
+            tbody {display: table-row-group;vertical-align: middle;border-color: inherit;}
+            tr {display: table-row;vertical-align: inherit;border-color: inherit;}
+            td, th {display: table-cell;vertical-align: inherit;}
+            blockquote {display: block;-webkit-margin-before: 1em;-webkit-margin-after: 1em;-webkit-margin-start: 40px;-webkit-margin-end: 40px;margin-before: 1em;margin-after: 1em;margin-start: 40px;margin-end: 40px;}
+            blockquote, q {quotes: inherit;}
+        }
         .items-container{display: flex; flex-wrap:wrap; justify-content:  flex-start;    padding-bottom: 14px;
             input:checked + .item {
                 background: #eee;

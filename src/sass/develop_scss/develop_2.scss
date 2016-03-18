@@ -30,6 +30,18 @@
 
 .text-block{ padding-top: 20px;
     .ctext{border: 1px solid #eeeeee; padding: 12px 15px 25px; margin-bottom: 17px;line-height: 1.46;font-size: 14px;font-family: "Raleway"; color: rgb(28, 20, 60);
+        p{display: block;margin-before: 1em;margin-after: 1em;margin-start: 0px;margin-end: 0px;    -webkit-margin-before: 1em;-webkit-margin-after: 1em;-webkit-margin-start: 0px;-webkit-margin-end: 0px;}
+        strong, b {font-weight: bold;}
+        i, cite, em, var, address, dfn {font-style: italic;}
+        li {display: list-item;text-align:match-parent;text-align: -webkit-match-parent;}
+        ul, menu, dir {display: block;list-style-type: disc;margin-before: 1em;margin-after: 1em;margin-start: 0px;margin-end: 0px;padding-start: 40px;-webkit-margin-before: 1em;-webkit-margin-after: 1em;-webkit-margin-start: 0px;-webkit-margin-end: 0px;-webkit-padding-start: 40px;}
+        ol {display: block;list-style-type: decimal;margin-before: 1em;margin-after: 1em;margin-start: 0px;margin-end: 0px;padding-start: 40px;-webkit-margin-before: 1em;-webkit-margin-after: 1em;-webkit-margin-start: 0px;-webkit-margin-end: 0px;-webkit-padding-start: 40px;}
+        table {display: table;border-collapse: separate;border-spacing: 2px;border-color: grey;}
+        tbody {display: table-row-group;vertical-align: middle;border-color: inherit;}
+        tr {display: table-row;vertical-align: inherit;border-color: inherit;}
+        td, th {display: table-cell;vertical-align: inherit;}
+        blockquote {display: block;-webkit-margin-before: 1em;-webkit-margin-after: 1em;-webkit-margin-start: 40px;-webkit-margin-end: 40px;margin-before: 1em;margin-after: 1em;margin-start: 40px;margin-end: 40px;}
+        blockquote, q {quotes: inherit;}
         ul{padding-top: 12px;
             li{text-indent: 10px;}
         }
