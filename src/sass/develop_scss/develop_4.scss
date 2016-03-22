@@ -279,7 +279,7 @@
             .item{padding: 15px;border:1px solid #eeeeee;margin-bottom: 13px;
                 &:last-child{margin-bottom: 0;}
                 .title{margin-bottom: 5px;
-                    b{color: inherit;}
+                    b, strong{color: inherit;}
                 }
                 .title a{font-size: 18px;color: #1e88e5;text-decoration: none;
                     b{color: inherit;}
