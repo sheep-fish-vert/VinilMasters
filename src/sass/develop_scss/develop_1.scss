@@ -67,15 +67,16 @@
 
             .header-nav{padding-top:8px;
                 ul{display: flex;}
-                a{display: block;padding:5px 14px 5px 17px;border-radius: 5px;text-decoration: none;color:#fff;font-weight: 700;font-size: 14px;overflow: hidden;position: relative;transition:background-color 300ms ease;
-                    span{position: relative;z-index: 1;}
-                    /*&:before, &:after{content: '';display: block;position: absolute;z-index:0;background-color: #bf0b27;top:calc(50% - 1px);bottom:calc(50% - 1px);width: 0;transition:width 500ms ease 300ms,top 300ms ease, bottom 300ms ease;}
-                    &:before{left:0;}
-                    &:after{right:0;}*/
-                    &:hover{background-color: #bf0b27;
-                        /*&:before, &:after{width: 50%;top:0;bottom:0;transition:width 500ms ease, top 300ms ease 500ms, bottom 300ms ease 500ms;}*/
+                li{
+                    &.active{
+                        a{background-color: #bf0b27;}
                     }
                 }
+                a{display: block;padding:5px 14px 5px 17px;border-radius: 5px;text-decoration: none;color:#fff;font-weight: 700;font-size: 14px;overflow: hidden;position: relative;transition:background-color 300ms ease;
+                    span{position: relative;z-index: 1;}
+                    &:hover{background-color: #bf0b27;}
+                }
+
             }
 
             .header-search{position: relative;
