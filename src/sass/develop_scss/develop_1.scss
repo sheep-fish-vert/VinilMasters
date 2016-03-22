@@ -135,6 +135,12 @@
                 .contact-img{padding-right:25px;text-align: center;}
                 .contact-text{padding: 0 15px 0 0;font-family: 'ProximaNova', sans-serif;color:#1a133b;font-size: 18px;
                     p{margin-bottom: 3px;
+                        a{color:#1a133b;text-decoration: none;position: relative;
+                            &:after{content:'';display: block;position: absolute;top:100%;left:0;height: 1px;width: 0;background-color: #1a133b;transition:width 300ms ease;}
+                            &:hover{
+                                &:after{width: 100%;}
+                            }
+                        }
                         &:last-child{margin-bottom:0;}
                     }
                     &.contact-text-tel{font-size: 24px;
